@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #e2e2e2;
+  align-items: center;
+}
+
+header h1 {
+  padding-left: .75rem;
+  padding-right: .6rem;
+}
+
+header img {
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+header p {
+  font-size: 1.125rem;
+}
+
+nav ul {
+  display: flex;
+  font-size: 1.125rem;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+nav a {
+  color: #0074d9
+  margin-left: .5rem;
+  margin-right: .5rem;
+  padding-left: 1rem;
+}
+
+a:hover {
+  color: #fff
+}
