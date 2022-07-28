@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: #fff
+  background-color: #fff;
   font-family: sans-serif;
   line-height: 1.5rem;
 }
@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav a {
-  color: #0074d9
+  color: #0074d9;
   margin-left: .5rem;
   margin-right: .5rem;
   padding-left: 1rem;
